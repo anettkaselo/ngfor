@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CatComponent } from './cat/cat.component';
+import { DogComponent } from './dog/dog.component';
+import { MouseComponent } from './mouse/mouse.component';
+import { RabbitComponent } from './rabbit/rabbit.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CatComponent,
+    DogComponent,
+    MouseComponent,
+    RabbitComponent
   ],
   imports: [
     BrowserModule,
